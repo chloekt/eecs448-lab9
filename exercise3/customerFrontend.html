@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Web Store</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <h1>Welcome to the store!</h1>
+    <h2>Order all the Fresh Pasta you desire!</h2>
+  </head>
+  <body>
+    <form id='pastastore' action="customerBackend.php" method="post">
+      <h3>Fresh Pasta:</h3>
+      <input type="number" name="bowties" id="bowties" min="0" size="1">2lb Farfalle ($20.00)<br>
+      <input type="number" name="tagliatelle" id="tagliatelle" min="0" size="1">1.5lb Tagliatelle ($15.00)<br>
+      <input type="number" name="ravs" id="ravs" min="0" size="1">2.5lb Ricotta-Filled Ravioli ($30.00)<br>
+
+      <br>
+      <h3>Personal Information</h3>
+      Enter a Username:<input type="text" name="username" id="username"><br>
+      Enter your password:<input type="text" name="password" id="password"><br>
+
+      <br>
+      <h3>Shipping Information</h3>
+      <input type="radio" name="shipping" id="free" value="Free 7 Day Shipping">Free 7 Day Shipping<br>
+      <input type="radio" name="shipping" id="3-day" value="3-day Shipping ($5.00)">3-day Shipping ($5.00)<br>
+      <input type="radio" name="shipping" id="overnight" value="Overnight Shipping ($50.00)">Overnight Shipping ($50.00)<br>
+
+      <br>
+      <input type="reset" name="Reset">
+      <input type="submit" name="Submit">
+    </form>
+    <script src="formChecker.js"></script>
+  </body>
+</html>

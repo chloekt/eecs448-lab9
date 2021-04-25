@@ -1,0 +1,35 @@
+body{
+  font: Times;
+  background-color: DarkSeaGreen;
+
+}
+
+header{
+  text-align: center;
+
+}
+
+form{
+  text-align: center;
+  padding-top: 2%;
+}
+
+#background{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(147, 175, 219);
+
+}
+
+#submit{
+    margin: 5px 5px 5px 5px;
+}
+
+#refresh{
+    text-align: center;
+    padding: 5px;
+}
+
+table{
+  border-color: black;
+}
